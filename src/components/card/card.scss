@@ -1,0 +1,40 @@
+.card{
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+
+.card-centre{
+    position: relative;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    padding: 25px;
+    border-radius: 15px;
+}
+.text{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.author{
+    text-align: end;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 15px 0; 
+}
+.next{
+    position: absolute;
+    border: none;
+    font-size: 20px;
+    bottom: 25px;
+    right: 40px;
+    padding: 10px 30px;
+    border-radius: 12px;
+    color: rgba(0,0,0,.4);
+    cursor: pointer;
+    transition: 0.8s;
+
+}

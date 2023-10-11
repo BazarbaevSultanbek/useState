@@ -1,0 +1,29 @@
+.prop{
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .8s;
+}
+.prop-modul{
+    position: relative;
+    width: 400px;
+    height: 250px;
+    background: #fff;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 25px;
+    h2{
+        font-family: sans-serif;
+    }
+    p{
+        text-align: justify;
+        line-height: 1.5;
+        padding-bottom: 20px;
+        font-family: sans-serif;
+    }
+    label{
+        padding-left: 10px;
+        font-family: sans-serif;
+    }
+}
